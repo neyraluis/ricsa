@@ -1,0 +1,444 @@
+<!doctype html>
+<html lang="es">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+  <title>RICSA — Broker para invertir en Bolsa Argentina</title>
+  <meta name="description" content="Abrí tu cuenta comitente, operá acciones, CEDEARs, bonos y FCI con soporte humano y costos claros. RICSA ALyC regulado por CNV." />
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <!-- Tipografía limpia (podés cambiarla por la corporativa si ya existe) -->
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700&display=swap" rel="stylesheet">
+
+  <link rel="icon" type="image/png" href="./logo ricsa.png" />
+  <link rel="stylesheet" href="./styles.css" />
+</head>
+
+<body>
+  <!-- Top trust bar -->
+  <div class="trustbar">
+    <div class="container trustbar__inner">
+      <p class="trustbar__text">
+        ALyC regulado por CNV · ALyC CNV Nº 884 · ACyD FCI Nº 55
+      </p>
+      <div class="trustbar__links">
+        <a class="link" href="#tarifas">Ver tarifas</a>
+        <a class="link" href="#research">Ver research</a>
+      </div>
+    </div>
+  </div>
+
+  <!-- Header -->
+  <header class="header" id="top">
+    <div class="container header__inner">
+      <a class="brand" href="#top" aria-label="Inicio">
+        <span class="brand__mark">RICSA</span>
+        <span class="brand__tag">Agente de Liquidación y Compensación</span>
+      </a>
+
+      <button class="navToggle" id="navToggle" aria-expanded="false" aria-controls="navMenu">
+        <span class="navToggle__bar"></span>
+        <span class="navToggle__bar"></span>
+        <span class="navToggle__bar"></span>
+        <span class="srOnly">Abrir menú</span>
+      </button>
+
+      <nav class="nav" id="navMenu">
+        <a href="#personas">Personas</a>
+        <a href="#empresas">Empresas</a>
+        <a href="#research">Research</a>
+        <a href="#tarifas">Tarifas</a>
+        <a href="#educacion">Educación</a>
+        <a href="#faq">FAQ</a>
+        <a href="#contacto">Contacto</a>
+
+        <div class="nav__cta">
+          <a class="btn btn--ghost" href="#contacto">WhatsApp</a>
+          <a class="btn btn--primary" href="#contacto">Abrir cuenta</a>
+        </div>
+      </nav>
+    </div>
+  </header>
+
+  <!-- Hero -->
+  <section class="hero" aria-labelledby="heroTitle">
+    <div class="container hero__grid">
+      <div class="hero__content">
+        <p class="pill">Broker en Argentina · Operá ByMA</p>
+
+        <h1 id="heroTitle" class="h1">
+          Broker para invertir en Bolsa Argentina con soporte real
+        </h1>
+
+        <p class="lead">
+          Abrí tu cuenta comitente, operá acciones, CEDEARs, bonos y FCI.
+          Comisiones claras, acompañamiento y foco en tu perfil de riesgo.
+        </p>
+
+        <div class="hero__actions">
+          <a class="btn btn--primary btn--xl" href="#contacto">Abrir cuenta</a>
+          <a class="btn btn--secondary btn--xl" href="#tarifas">Ver tarifas</a>
+        </div>
+
+        <div class="hero__proof">
+          <div class="proof">
+            <span class="proof__kpi">+20 años</span>
+            <span class="proof__label">de experiencia (desde 2003)</span>
+          </div>
+          <div class="proof">
+            <span class="proof__kpi">Research</span>
+            <span class="proof__label">informes y seguimiento</span>
+          </div>
+          <div class="proof">
+            <span class="proof__kpi">Soporte</span>
+            <span class="proof__label">humano por canales directos</span>
+          </div>
+        </div>
+      </div>
+
+      <div class="hero__card">
+        <div class="card card--glass">
+          <h2 class="h3">Cómo empezar (en 3 pasos)</h2>
+          <ol class="steps">
+            <li>
+              <b>Abrí tu cuenta comitente</b>
+              <span>Proceso simple y acompañado.</span>
+            </li>
+            <li>
+              <b>Definí tu objetivo y perfil</b>
+              <span>Plazos, riesgo, moneda, liquidez.</span>
+            </li>
+            <li>
+              <b>Elegí instrumentos</b>
+              <span>Acciones, CEDEARs, bonos, FCI, MEP.</span>
+            </li>
+          </ol>
+          <a class="btn btn--primary w100" href="#contacto">Quiero que me contacten</a>
+
+          <p class="fineprint">
+            * Demo de diseño. No constituye recomendación de inversión.
+          </p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Productos (Personas) -->
+  <section class="section" id="personas">
+    <div class="container">
+      <div class="sectionHead">
+        <h2 class="h2">Productos para empezar hoy</h2>
+        <p class="muted">Estructura tipo “cluster” para SEO (cada producto con su página guía).</p>
+      </div>
+
+      <div class="grid cards">
+        <article class="card">
+          <h3 class="h3">Acciones</h3>
+          <p>Invertí en empresas argentinas según tu estrategia y horizonte.</p>
+          <a class="link" href="#">Ver guía de Acciones</a>
+        </article>
+
+        <article class="card">
+          <h3 class="h3">CEDEARs</h3>
+          <p>Accedé a empresas globales desde Argentina con cobertura cambiaria.</p>
+          <a class="link" href="#">Ver guía de CEDEARs</a>
+        </article>
+
+        <article class="card">
+          <h3 class="h3">Bonos</h3>
+          <p>CER, dólar linked y alternativas de renta fija según escenario.</p>
+          <a class="link" href="#">Ver guía de Bonos</a>
+        </article>
+
+        <article class="card">
+          <h3 class="h3">Fondos Comunes (FCI)</h3>
+          <p>Diversificación y delegación con vehículos administrados.</p>
+          <a class="link" href="#">Ver guía de FCI</a>
+        </article>
+
+        <article class="card">
+          <h3 class="h3">Dólar MEP</h3>
+          <p>Proceso transparente dentro del marco regulatorio.</p>
+          <a class="link" href="#">Cómo operar MEP</a>
+        </article>
+
+        <article class="card card--accent">
+          <h3 class="h3">Simulador</h3>
+          <p>Probá escenarios y armá tu primer plan con números simples.</p>
+          <a class="btn btn--secondary" href="#educacion">Abrir simulador</a>
+        </article>
+      </div>
+    </div>
+  </section>
+
+  <!-- E-E-A-T -->
+  <section class="section section--soft" id="research">
+    <div class="container">
+      <div class="sectionHead">
+        <h2 class="h2">Por qué elegir RICSA</h2>
+        <p class="muted">Confianza + método + contenido (patrón ganador en brokers).</p>
+      </div>
+
+      <div class="grid cols3">
+        <div class="card">
+          <h3 class="h3">Regulación y respaldo</h3>
+          <p>Datos visibles: matrícula CNV, ALyC y condiciones claras.</p>
+        </div>
+
+        <div class="card">
+          <h3 class="h3">Research accionable</h3>
+          <p>Informes periódicos y seguimiento por escenario (sin prometer resultados).</p>
+        </div>
+
+        <div class="card">
+          <h3 class="h3">Educación para decidir mejor</h3>
+          <p>Guías, cursos y material para principiantes y avanzados.</p>
+        </div>
+      </div>
+
+      <div class="divider"></div>
+
+      <div class="grid cols3">
+        <article class="miniPost">
+          <p class="miniPost__tag">Informe</p>
+          <h3 class="miniPost__title">Panorama de mercado semanal</h3>
+          <p class="miniPost__desc">Resumen, niveles clave y riesgos del escenario.</p>
+          <a class="link" href="#">Leer</a>
+        </article>
+
+        <article class="miniPost">
+          <p class="miniPost__tag">Guía</p>
+          <h3 class="miniPost__title">Cómo elegir CEDEARs para diversificar</h3>
+          <p class="miniPost__desc">Criterios simples: sector, dólar, volatilidad.</p>
+          <a class="link" href="#">Leer</a>
+        </article>
+
+        <article class="miniPost">
+          <p class="miniPost__tag">Educación</p>
+          <h3 class="miniPost__title">Cuenta comitente: pasos y documentación</h3>
+          <p class="miniPost__desc">Checklist rápido para abrir tu cuenta.</p>
+          <a class="link" href="#">Leer</a>
+        </article>
+      </div>
+    </div>
+  </section>
+
+  <!-- Empresas -->
+  <section class="section" id="empresas">
+    <div class="container">
+      <div class="sectionHead">
+        <h2 class="h2">Soluciones para Empresas</h2>
+        <p class="muted">
+          Separado de “Personas” para no mezclar intención de búsqueda (B2B vs retail).
+        </p>
+      </div>
+
+      <div class="grid cols2">
+        <div class="card">
+          <h3 class="h3">Asesoramiento integral</h3>
+          <ul class="list">
+            <li>Servicios financieros y actuariales</li>
+            <li>Proyectos de energía e infraestructura</li>
+            <li>Investigaciones y análisis</li>
+            <li>Finanzas corporativas</li>
+          </ul>
+          <a class="btn btn--primary" href="#contacto">Agendar llamada</a>
+        </div>
+
+        <div class="card card--outline">
+          <h3 class="h3">Presentación institucional</h3>
+          <p>
+            RICSA opera como Agente de Liquidación y Compensación y ofrece soluciones
+            financieras a distintos perfiles de clientes.
+          </p>
+          <a class="link" href="#">Ver quiénes somos</a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Tarifas -->
+  <section class="section section--soft" id="tarifas">
+    <div class="container">
+      <div class="sectionHead">
+        <h2 class="h2">Comisiones y costos claros</h2>
+        <p class="muted">Tabla simple + micro-FAQ (modelo IOL / práctica de mercado).</p>
+      </div>
+
+      <div class="tableWrap">
+        <table class="table">
+          <thead>
+            <tr>
+              <th>Concepto</th>
+              <th>Argentina</th>
+              <th>EE.UU. (si aplica)</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td>Compra/Venta</td>
+              <td>— %</td>
+              <td>— %</td>
+            </tr>
+            <tr>
+              <td>Custodia</td>
+              <td>—</td>
+              <td>—</td>
+            </tr>
+            <tr>
+              <td>Mantenimiento</td>
+              <td>—</td>
+              <td>—</td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+
+      <div class="grid cols3">
+        <div class="card">
+          <h3 class="h3">¿Hay costos ocultos?</h3>
+          <p>No. Acá se listan los cargos típicos y se documenta cada caso.</p>
+        </div>
+        <div class="card">
+          <h3 class="h3">¿Cómo comparar brokers?</h3>
+          <p>Compará compra/venta + custodia + mantenimiento + mínimos.</p>
+        </div>
+        <div class="card">
+          <h3 class="h3">¿MEP tiene costos?</h3>
+          <p>Depende del circuito. Se detalla en la guía de operación.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Educación / Captura -->
+  <section class="section" id="educacion">
+    <div class="container">
+      <div class="ctaBox">
+        <div>
+          <h2 class="h2">Guía gratis: “Cómo empezar a invertir en 15 minutos”</h2>
+          <p class="muted">Lead magnet para SEO + conversión asistida.</p>
+        </div>
+
+        <form class="form" onsubmit="return false;">
+          <input class="input" type="email" placeholder="Tu email" aria-label="Email" />
+          <button class="btn btn--primary" type="submit">Recibir guía</button>
+        </form>
+      </div>
+    </div>
+  </section>
+
+  <!-- FAQ -->
+  <section class="section section--soft" id="faq">
+    <div class="container">
+      <div class="sectionHead">
+        <h2 class="h2">Preguntas frecuentes</h2>
+        <p class="muted">Bloque SEO + reduce fricción para “abrir cuenta”.</p>
+      </div>
+
+      <div class="accordion" data-accordion>
+        <button class="acc__btn" aria-expanded="false">
+          ¿Qué necesito para abrir una cuenta comitente?
+        </button>
+        <div class="acc__panel">
+          <p>DNI, datos básicos, declaración de perfil y documentación según el caso.</p>
+        </div>
+
+        <button class="acc__btn" aria-expanded="false">
+          ¿Cómo comparo comisiones entre brokers?
+        </button>
+        <div class="acc__panel">
+          <p>Compará compra/venta + custodia + mantenimiento + mínimos y condiciones.</p>
+        </div>
+
+        <button class="acc__btn" aria-expanded="false">
+          ¿Qué es un CEDEAR?
+        </button>
+        <div class="acc__panel">
+          <p>Certificado que replica acciones del exterior y se opera en Argentina.</p>
+        </div>
+
+        <button class="acc__btn" aria-expanded="false">
+          ¿Puedo operar dólar MEP en un broker regulado?
+        </button>
+        <div class="acc__panel">
+          <p>Se opera dentro del marco legal correspondiente y con proceso transparente.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Contacto -->
+  <section class="section" id="contacto">
+    <div class="container">
+      <div class="sectionHead">
+        <h2 class="h2">Contacto</h2>
+        <p class="muted">Formulario simple + datos institucionales visibles.</p>
+      </div>
+
+      <div class="grid cols2">
+        <form class="card formCard" onsubmit="return false;">
+          <label class="label">Nombre</label>
+          <input class="input" type="text" placeholder="Tu nombre" />
+
+          <label class="label">Email</label>
+          <input class="input" type="email" placeholder="tu@email.com" />
+
+          <label class="label">Mensaje</label>
+          <textarea class="input" rows="5" placeholder="Contanos qué querés hacer (invertir, empresa, tarifas, etc.)"></textarea>
+
+          <button class="btn btn--primary" type="submit">Enviar</button>
+          <p class="fineprint">* Demo. Integración real: backend / CRM / WhatsApp link.</p>
+        </form>
+
+        <div class="card card--outline">
+          <h3 class="h3">Datos institucionales</h3>
+          <p class="muted">
+            ALyC CNV Nº 884 · ACyD FCI Nº 55 · Dirección y canales de contacto.
+          </p>
+          <ul class="list">
+            <li><b>Dirección:</b> (completar)</li>
+            <li><b>Tel:</b> (completar)</li>
+            <li><b>Email:</b> (completar)</li>
+          </ul>
+
+          <div class="divider"></div>
+
+          <a class="btn btn--ghost w100" href="#">Escribir por WhatsApp</a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="footer">
+    <div class="container footer__grid">
+      <div>
+        <div class="brandFooter">RICSA</div>
+        <p class="fineprint">
+          Agente de Liquidación y Compensación (ALyC) · CNV Nº 884 · ACyD FCI Nº 55
+        </p>
+      </div>
+
+      <div>
+        <p class="footer__title">Secciones</p>
+        <a href="#personas">Personas</a>
+        <a href="#empresas">Empresas</a>
+        <a href="#tarifas">Tarifas</a>
+        <a href="#faq">FAQ</a>
+      </div>
+
+      <div>
+        <p class="footer__title">Legales</p>
+        <a href="#">Términos</a>
+        <a href="#">Privacidad</a>
+        <a href="#">Riesgos</a>
+      </div>
+    </div>
+  </footer>
+
+  <script src="./main.js"></script>
+</body>
+</html>
